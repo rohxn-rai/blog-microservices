@@ -26,7 +26,9 @@ const PostCreate = () => {
             className="form-control"
           />
         </div>
-        <button className="btn btn-primary w-25">Submit</button>
+        <button className="btn btn-primary" style={{ width: "fit-content" }}>
+          Submit
+        </button>
       </form>
     </div>
   );
