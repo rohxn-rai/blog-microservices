@@ -41,5 +41,6 @@ app.post("/events", (req, res) => {
 });
 
 app.listen(4000, () => {
+  console.log("Version Control - V0.0.5");
   console.log("Listening on 4000");
 });
